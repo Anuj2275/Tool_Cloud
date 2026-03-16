@@ -7,7 +7,8 @@ export default defineConfig({
     port: 3000,
     proxy: {
       // /api se shuru hone wale requests backend pe jaayenge
-      '/api': 'http://localhost:5000'
+      // '/api': 'http://localhost:5000'
+      '/api': 'https://tool-cloud.onrender.com'
     }
   }
 })
